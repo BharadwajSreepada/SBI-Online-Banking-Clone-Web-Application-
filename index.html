@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>State Bank of India</title>
+    <link rel="icon" href="images/icon.png"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="parent">
+        <div class="header">
+            <logo class="logo1"><img src="images/icon.png" height="50px" width="80px" alt="logo"></logo>
+            <logo class="logo2"><img src="images/icon.png" height="50px" width="80px" alt="logo"></logo>
+        </div>
+        <div class="menu">
+            <ul class="items-list">
+                <li>Services</li>
+                <li>Mobile Banking</li>
+                <li>FAQ</li>
+                <li>Corporate Website</li>
+                <li>SBIMOPS</li>
+                <li>SB Collect</li>
+                <li>Electoral Bond</li>
+                <li>Videos</li>
+                <li>mCash</li>
+                <li>Apply for SBI/Current Account</li>
+                <li><a href="register.php" style="color: white; text-decoration: none;">Register</a></li>
+            </ul>
+        </div>
+        <div class="news">
+            <marquee>
+                If slowness is observed during Login Page loading, please refresh the page for better experience
+                | SBI never asks for confidential information such as PIN and OTP from customers.
+            </marquee>
+        </div>
+        <div class="card">
+            <div class="personal">
+                <center>
+                    <img src="images/user.png" alt="user" width="80px" height="80px" />
+                    <p class="p_text"><span style="color:#1a75cf;">PERSONAL</span> BANKING</p>
+                    <form method="POST" action="login.php">
+                        <input type="text" name="username" placeholder="Username" required style="width: 80%; padding: 10px; margin: 10px 0; border: 1px solid gray;">
+                        <input type="password" name="password" placeholder="Password" required style="width: 80%; padding: 10px; margin: 10px 0; border: 1px solid gray;">
+                        <button type="submit" class="login">Login >></button>
+                    </form>
+                    <p style="margin-top: 10px;"><a href="register.php" style="color: #1a75cf; text-decoration: none;">New User? Register</a></p>
+                    <p><a href="#" style="color: #1a75cf; text-decoration: none;">How do I</a></p>
+                    <p><a href="#" style="color: #1a75cf; text-decoration: none;">Customer Care</a></p>
+                    <p><a href="#" style="color: #1a75cf; text-decoration: none;">Lock & Unlock User</a></p>
+                </center>
+            </div>
+            <div class="corporate">
+                <center>
+                    <img src="images/yono_sbi.png" width="200px" height="40px"/>
+                    <p class="c_text"><span style="color:#1a75cf;">CORPORATE</span> BANKING</p>
+                    <form method="POST" action="login.php">
+                        <input type="text" name="username" placeholder="Username" required style="width: 80%; padding: 10px; margin: 10px 0; border: 1px solid gray;">
+                        <input type="password" name="password" placeholder="Password" required style="width: 80%; padding: 10px; margin: 10px 0; border: 1px solid gray;">
+                        <button type="submit" class="login">Login</button>
+                    </form>
+                    <p style="margin-top: 10px;"><a href="register.php" style="color: #1a75cf; text-decoration: none;">New User? Register</a></p>
+                    <p><a href="#" style="color: #1a75cf; text-decoration: none;">How do I</a></p>
+                    <p><a href="#" style="color: #1a75cf; text-decoration: none;">Customer Care</a></p>
+                </center>
+            </div>
+        </div>
+        <div class="footer">
+            Call us toll-free on 1800 1234 and 1800 2100 for SBI Contact Centre services | SBI never asks for your Card/PIN/OTP/CVV details.
+        </div>
+        <div class="slider"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

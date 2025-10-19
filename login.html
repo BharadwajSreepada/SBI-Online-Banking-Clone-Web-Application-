@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login - SBI Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="http://localhost:8080/SBI_Website_Clone/login" method="POST">
+            <input type="text" name="username" placeholder="Enter Username" required><br>
+            <input type="password" name="password" placeholder="Enter Password" required><br>
+            <button type="submit">Login</button>
+        </form>
+        <p style="color:red;">
+            <script>
+                const urlParams = new URLSearchParams(window.location.search);
+                if (urlParams.has("error")) document.write(urlParams.get("error"));
+            </script>
+        </p>
+    </div>
+</body>
+</html>
